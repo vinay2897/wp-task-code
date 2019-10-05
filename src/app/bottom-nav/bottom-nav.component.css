@@ -1,0 +1,36 @@
+#frame{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* height: 100%; */
+    background-color: white;
+}
+
+
+.item{
+    text-align: center;
+    cursor: pointer;
+    padding: 0.5rem 0rem;
+}
+
+.item:hover {
+    border-top: 3px solid #39B2A8;
+    background-color: rgb(223, 247, 245);
+    transition: 0.3s;
+}
+
+.item:hover #ic{
+    color: #39B2A8;
+    transition: 0.3s;
+}
+
+.sl{
+    color: #39B2A8;
+}
+
+.itemsl{
+    border-top: 3px solid #39B2A8;
+}
+
+#ic{
+    font-size: 2rem;
+}

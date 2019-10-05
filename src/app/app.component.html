@@ -1,0 +1,16 @@
+<div id="main-frame">
+  <div *ngIf="currentWindowWidth > 650px" id="left-frame">
+    <app-side-nav></app-side-nav>
+  </div>
+  <div id="right-frame">
+    <div id="toolbar-frame">
+        <app-toolbar></app-toolbar>
+    </div>
+    <div id="content-frame">
+        <router-outlet></router-outlet>
+    </div>
+    <div *ngIf="currentWindowWidth <= 650px" id="bottom-nav">
+      <app-bottom-nav></app-bottom-nav>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0rem;
+    color: #808080;
+}
+
+a:link {
+    color: #808080;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #808080;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #808080;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #808080;
+  }
+
+.btn{
+    border: 1.5px solid #39B2A8;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border-radius: 0.25rem;
+    color: #39B2A8;
+    width: max-content;
+}
+
+.f1{
+  font-size: 2rem;
+}
+
+.f2{
+  font-size: 1rem;
+}
+
+.f3{
+  font-size: 0.9rem;
+}

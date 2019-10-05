@@ -1,0 +1,27 @@
+#main-frame{
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    height: 100vh;
+}
+
+#left-frame{
+    box-shadow: 0.05px 0.05px 1px grey;
+}
+
+#toolbar-frame{
+    height: 4rem;
+}
+
+#bottom-nav{
+    position: fixed;
+    bottom: 0rem;
+    height: 3rem;
+    width: 100%;
+    box-shadow: 0.05px 0.05px 1px grey;
+}
+
+@media (max-width: 650px) {
+    #main-frame{
+        grid-template-columns: 1fr;
+    }
+}

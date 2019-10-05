@@ -1,0 +1,58 @@
+<div id="frame">
+
+    <div id="header" class="f1">
+        Content Store
+    </div>
+
+    <div class="content">
+        <div id="section-1">
+            <div id="section-1-content">
+                <p id="sub-header" class="f2">Got bulk orders or almost similar orders? Fill the order brief in an excel sheet
+                </p>
+                <p id="para" class="f3">
+                    If you're wondering for an easy way to place orders in large numbers, we provide a way customized
+                    just
+                    for that. Download our excel sheet, and fill the order brief in the prescribed format and submit.
+                    In
+                    case you need any help, <a href="#">we are just a click away to assist you in placing your order</a>
+                </p>
+                <div id="btn1" class="btn">Order via Excel Sheet</div>
+            </div>
+            <div></div>
+
+        </div>
+
+        <div id="section-2">
+            <div class="item" *ngFor="let i of data">
+                <app-content-store-item [id]="i.id" [price]="i.price" [content]="i.content" [title]="i.title"
+                    [image]="i.image"></app-content-store-item>
+            </div>
+        </div>
+
+        <div id="section-3">
+            <div id="first">
+                <div class="footer-icon">
+                    <a class="fa fa-twitter"></a>
+                </div>
+                <div class="footer-icon">
+                    <a class="fa fa-linkedin"></a>
+                </div>
+                <div class="footer-icon">
+                    <a class="fa fa-instagram"></a>
+                </div>
+                <div class="footer-icon">
+                    <a class="fa fa-facebook"></a>
+                </div>
+            </div>
+            <div id="second">
+                <div>Copyright @ 2019 Company Pvt. Ltd.</div>
+                <div>All rights reserved</div>
+            </div>
+            <div id="third">
+                <a href="#">Privacy policy</a>  |  <a href="#">Terms of service</a>  |  <a href="#">Service Agreement</a>  | 
+                <a href="#">Contact us</a>
+            </div>
+        </div>
+    </div>
+
+</div>
