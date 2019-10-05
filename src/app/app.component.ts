@@ -11,13 +11,11 @@ export class AppComponent {
   @HostListener('window:resize')
   onResize() {
     this.currentWindowWidth = window.innerWidth
-    console.log(this.currentWindowWidth)
   }
 
   public currentWindowWidth: number;
 
   ngOnInit() {
     this.currentWindowWidth = window.innerWidth;
-    console.log(this.currentWindowWidth)
   }
 }

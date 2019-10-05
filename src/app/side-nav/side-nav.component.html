@@ -1,6 +1,6 @@
 <div id="frame">
     <div *ngFor="let i of nav_list">
-        <div (click)="select(i.id)" routerLink="{{i.link}}" [ngClass]="{ itemsl:selected === i.id}" class="item">
+        <div (click)="select(i.id)" [ngClass]="{ itemsl:selected === i.id}" class="item">
             <i id="ic" class="material-icons" [ngClass]="{ sl:selected === i.id}">{{ i.icon }}</i>
         </div>
     </div>

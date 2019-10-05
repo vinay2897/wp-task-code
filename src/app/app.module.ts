@@ -8,7 +8,6 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { ContentStoreComponent } from './content-store/content-store.component';
 import { ContentStoreItemComponent } from './content-store-item/content-store-item.component';
 import { BottomNavComponent } from './bottom-nav/bottom-nav.component';
-import { DummyComponent } from './dummy/dummy.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +16,7 @@ import { DummyComponent } from './dummy/dummy.component';
     SideNavComponent,
     ContentStoreComponent,
     ContentStoreItemComponent,
-    BottomNavComponent,
-    DummyComponent
+    BottomNavComponent
   ],
   imports: [
     BrowserModule,
